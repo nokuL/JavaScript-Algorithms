@@ -1,7 +1,6 @@
 function deleteDuplicates(array){
     // function to delete duplicates from array
 
-    hashmap = new Map()
     left = 1
 
     if(array.length< 2){
