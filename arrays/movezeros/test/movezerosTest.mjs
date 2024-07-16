@@ -15,4 +15,5 @@ describe('move zeros', () => {
     const invalidArray = [1, 2, 3, 4];
     expect(() => moveZeroes(invalidArray)).toThrow(Error);
   });
+  
 });
