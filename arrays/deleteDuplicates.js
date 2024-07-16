@@ -1,5 +1,4 @@
 function deleteDuplicates(array){
-    // function to delete duplicates from array
 
     left = 1
 

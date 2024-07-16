@@ -158,13 +158,13 @@ class DoublyLinkedList {
             previous.setNext(currentNode.getNext());
 
         }else{
-            this.head = currentNode;
+            this.head = currentNode.getNext();
         }
         if(currentNode.getNext()!=null){
             currentNode.getNext().setPrevious(previous);
 
         }else{
-            this.tail = currentNode;
+            this.tail = currentNode.getNext();
         }
 
     }
