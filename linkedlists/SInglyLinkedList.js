@@ -111,5 +111,15 @@ class SinglyLinkedList{
 
    }
 
+   findListSize(){
+     let size = 0;
+     let curr = this.head;
+     while(curr!=null){
+        size++;
+        curr = curr.getNext();
+     }
+     return size;
+   }
+
 
 }
