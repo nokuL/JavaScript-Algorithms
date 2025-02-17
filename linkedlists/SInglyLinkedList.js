@@ -85,9 +85,6 @@ class SinglyLinkedList{
     prev2.setNext(node1.getNext());
 
    }
-
-
-    
    
    }
 
